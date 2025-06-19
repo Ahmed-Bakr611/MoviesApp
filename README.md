@@ -22,7 +22,20 @@ A full-featured movie management app built with **React**, **Redux**, and **Mate
 
 ---
 
-<pre> ## 📁 Project Structure ``` MoviesApp/ ├── backend/ # JSON Server backend (with movies.json) │ └── Data/ │ └── movies.json ├── frontend/ # React frontend │ └── src/ │ ├── pages/ │ ├── redux/ │ └── ... ├── README.md ``` </pre>
+## 📁 Project Structure
+
+```
+MoviesApp/
+├── backend/                # JSON Server backend (with movies.json)
+│   └── Data/
+│       └── movies.json
+├── frontend/               # React frontend
+│   └── src/
+│       ├── pages/
+│       ├── redux/
+│       └── ...
+├── README.md
+```
 
 ## ⚙️ Setup Instructions
 
