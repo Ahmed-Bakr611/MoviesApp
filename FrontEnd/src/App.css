@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.myNav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.fav-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 2rem;
+  img {
+    width: 1rem;
+  }
+}
+.movie {
+  position: relative;
+}
+.fav-icon {
+  /* position: absolute;
+  top: 20px;
+  right: 20px; */
+  font-size: 2rem;
+  cursor: pointer;
+  color: wheat;
+  transition: color 0.3s;
+}
+.movie-header {
+  text-decoration: none;
+  color: white;
+}
+
+.fav-icon:hover {
+  color: gold;
+}
+
+.fav-icon.active {
+  color: gold;
+  /* background-color: aqua; */
+}
+
+.my-logo {
+  width: 50px;
+  height: 50px;
+}
+.down {
+  margin-top: 6rem;
+}
+.single-line-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mid-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.movie {
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+
+  .poster-img {
+    /* width: 200px; */
+    height: 300px;
+  }
+}
+
+.movies-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.card-link-wrapper {
+  text-decoration: none;
+}
+
+.clickable-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.clickable-card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,21 @@
+{
+  "name": "moviesbackend",
+  "version": "1.0.0",
+  "description": "This is My Movies BackEnd Server To Handle CRUD Operations With My Movies Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ahmed Bakr",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
