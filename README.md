@@ -24,21 +24,23 @@ A full-featured movie management app built with **React**, **Redux**, and **Mate
 
 ## 📁 Project Structure
 
-MoviesApp/
-├── backend/ # JSON Server backend (with movies.json)
-│ └── movies.json
-├── frontend/ # React frontend
-│ └── src/
-│ ├── pages/
-│ ├── redux/
-│ └── ...
-├── README.md
+### MoviesApp/
 
-yaml
-Copy
-Edit
+#### ├── backend/ # JSON Server backend (with movies.json)
 
----
+##### │ └── Data/movies.json
+
+#### ├── frontend/ # React frontend
+
+##### │ └── src/
+
+###### │ ├── pages/
+
+###### │ ├── redux/
+
+###### │ └── ...
+
+### ├── README.md
 
 ## ⚙️ Setup Instructions
 
@@ -57,9 +59,7 @@ npm i
 npm run dev
 ```
 
-This will start a mock API at http://localhost:3000/movies.
-
-will start a mock API at http://localhost:3001/movies.
+#### This will start a mock API at http://localhost:3000/movies.
 
 ### 💻 3. Start the Frontend
 
@@ -71,7 +71,7 @@ npm install
 npm run dev
 ```
 
-By default, the frontend runs at http://localhost:5173
+#### By default, the frontend runs at http://localhost:5173
 
 ### 🛠 API Endpoints
 
