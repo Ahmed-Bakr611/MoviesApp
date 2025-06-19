@@ -33,6 +33,8 @@ MoviesApp/
 │   └── src/
 │       ├── pages/
 │       ├── redux/
+|       |-- components
+|       |-- utils
 │       └── ...
 ├── README.md
 ```
