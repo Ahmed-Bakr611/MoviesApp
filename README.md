@@ -22,23 +22,6 @@ A full-featured movie management app built with **React**, **Redux**, and **Mate
 
 ---
 
-## 📁 Project Structure
-
-```
-MoviesApp/
-├── backend/                # JSON Server backend (with movies.json)
-│   └── Data/
-│       └── movies.json
-├── frontend/               # React frontend
-│   └── src/
-│       ├── pages/
-│       ├── redux/
-|       |-- components
-|       |-- utils
-│       └── ...
-├── README.md
-```
-
 ## ⚙️ Setup Instructions
 
 ### 🔁 1. Clone the Repository
@@ -64,11 +47,28 @@ Open a new terminal and run the React app:
 
 ```bash
 cd frontend
-npm install
+npm i
 npm run dev
 ```
 
 #### By default, the frontend runs at http://localhost:5173
+
+## 📁 Project Structure
+
+```
+MoviesApp/
+├── backend/                # JSON Server backend (with movies.json)
+│   └── Data/
+│       └── movies.json
+├── frontend/               # React frontend
+│   └── src/
+│       ├── pages/
+│       ├── redux/
+|       |-- components
+|       |-- utils
+│       └── ...
+├── README.md
+```
 
 ### 🛠 API Endpoints
 
