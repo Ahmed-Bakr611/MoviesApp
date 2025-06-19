@@ -47,29 +47,44 @@ Edit
 ```bash
 git clone https://github.com/Ahmed-Bakr611/MoviesApp.git
 cd MoviesApp
-🔌 2. Start the Backend
-Navigate to the backend directory and start the JSON server:
+```
 
-bash
-Copy
-Edit
+### 🔌 2. Start the Backend
+
+```bash
 cd backend
-npm install json-server
-npx json-server --watch movies.json --port 3001
-This will start a mock API at http://localhost:3001/movies.
+npm i
+npm run dev
+```
 
-💻 3. Start the Frontend
+This will start a mock API at http://localhost:3000/movies.
+
+will start a mock API at http://localhost:3001/movies.
+
+### 💻 3. Start the Frontend
+
 Open a new terminal and run the React app:
 
-bash
-Copy
-Edit
+```bash
 cd frontend
 npm install
 npm run dev
+```
+
 By default, the frontend runs at http://localhost:5173
 
-✨ Features
+### 🛠 API Endpoints
+
+| Method | Endpoint     | Description          |
+| ------ | ------------ | -------------------- |
+| GET    | /movies      | Fetch all movies     |
+| GET    | /movies/\:id | Get a specific movie |
+| POST   | /movies      | Add a new movie      |
+| PUT    | /movies/\:id | Update a movie       |
+| DELETE | /movies/\:id | Delete a movie       |
+
+### ✨ Features
+
 ✅ Full CRUD for Movies
 
 🔐 Register & Login using Redux
@@ -85,15 +100,3 @@ By default, the frontend runs at http://localhost:5173
 📱 Fully responsive
 
 🔔 SweetAlert2 popups
-
-```
-
-🛠 API Endpoints
-
-| Method | Endpoint     | Description          |
-| ------ | ------------ | -------------------- |
-| GET    | /movies      | Fetch all movies     |
-| GET    | /movies/\:id | Get a specific movie |
-| POST   | /movies      | Add a new movie      |
-| PUT    | /movies/\:id | Update a movie       |
-| DELETE | /movies/\:id | Delete a movie       |
