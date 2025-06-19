@@ -26,21 +26,20 @@ A full-featured movie management app built with **React**, **Redux**, and **Mate
 
 ### MoviesApp/
 
-#### ├── backend/ # JSON Server backend (with movies.json)
+              #### ├── backend/ # JSON Server backend (with movies.json)
 
-##### │ └── Data/movies.json
+                ##### │ └── Data/movies.json
 
-#### ├── frontend/ # React frontend
+              #### ├── frontend/ # React frontend
 
-##### │ └── src/
+                          ##### │ └── src/
 
-###### │ ├── pages/
+                                    ###### │ ├── pages/
 
-###### │ ├── redux/
+                                    ###### │ ├── redux/
 
-###### │ └── ...
 
-### ├── README.md
+              ### ├── README.md
 
 ## ⚙️ Setup Instructions
 
